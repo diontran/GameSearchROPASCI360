@@ -1,0 +1,14 @@
+- Manuel upper and Manuel lower:
+        - is just for testing
+        - enter manual moves to test the game
+- RandomMoves:
+        - AI that plays randomly
+        - Seems to be broken for some reason now
+- referee:
+        - provided driver class
+- teamname:
+        - AI currently in development
+        - Uses a heuristic of manhattan distance
+        - looks a single step ahead
+- Testing:
+        - a testing file with a main function to test individual functions

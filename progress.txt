@@ -1,0 +1,47 @@
+19/4 Tyler
+- implement throwing random tokens for player in allowed area
+- implemented board representation and updating throwing
+
+20/4 Tyler
+- Implemented updating board representation for sliding
+
+21/4 Tyler
+- Implemented token eating in board representation
+- Successfully have to agent doing Random moves playing the game
+
+22/4 Tyler
+- Fixed logic error in updating board representation (updating board's move one by one)
+
+23/4 Tyler
+- Starting on heuristics of a state of a board, doing the heuristic for a single token first
+- Planning on implementing a simple heuristic and get the algorithm going, and discuss the heuristic in more detail with
+teammate and implement it.
+
+24/4 Tyler
+- Modified function for updating board to create a new state, to be used in creating child states in algorithm
+- Create function to return all possible game stats from a single state of game
+
+25/4 Tyler
+- Manage the data and created a matrix for game theory to output the best option
+
+26/4 Tyler
+- Added throwing options to the matrix for game theory
+- Current problem: Game would choose to throw a token as far as possible to get a good heuristic
+
+28/4 Tyler
+- refactored some functions to static functions
+- Completed AI looking at all moves one step ahead
+
+29/4 Tyler
+- Multiple debugging of board updates and move returning
+<<<<<<< HEAD
+
+7/5 Tyler
+- Add function to only consider good moves
+    - Slide towards target
+    - Slide away from predator
+    - dont throw on ally
+
+changed token_win function to static
+=======
+>>>>>>> 35a015a56809fc0ae6866c9c09799fe8bfeb702b
